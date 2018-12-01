@@ -1,0 +1,34 @@
+body {
+  font-family: Roboto;
+  background: radial-gradient(farthest-corner, #048fec, #000000);
+}
+
+#container {
+  height: 50vh;
+  width: 50vw;
+  margin: 200px auto;
+  background: #ffffff;
+  border-radius: 10%;
+}
+
+h1 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 20pt;
+  text-align: center;
+  padding: 20px 0px 0px;
+}
+
+#answer {
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 5vw;
+}
+
+#magicBall {
+  text-align: center;
+}
+
+button {
+  font-size: 18pt;
+}
