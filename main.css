@@ -14,15 +14,17 @@ body {
 h1 {
   color: black;
   text-transform: uppercase;
-  font-size: 20pt;
+  font-size: 1.8em;
   text-align: center;
   padding: 20px 0px 0px;
 }
 
 #answer {
   text-align: center;
-  padding: 30px 0px;
-  font-size: 5vw;
+  padding: 10px 0px;
+  font-size: 1.8em;
+  font-style: italic;
+  visibility: hidden;
 }
 
 #magicBall {
@@ -30,5 +32,5 @@ h1 {
 }
 
 button {
-  font-size: 18pt;
+  font-size: 1.3em;
 }
