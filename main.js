@@ -4,7 +4,7 @@ const answer0 = 'It is certain.';
 const answer1 = 'It is decidedly so.';
 const answer2 = 'Sources say "No".';
 const answer3 = "Don't count on it.";
-const answer4 = "Can't tell right now";
+const answer4 = "Can't tell right now.";
 const answer5 = 'Solar Flares! Try asking again.';
 
 const responseArray = [answer0, answer1, answer2, answer3, answer4, answer5];
