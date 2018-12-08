@@ -93,6 +93,33 @@ button {
   filter: blur(10px);
 }
 
+#eightBall #eight {
+  width: 110px;
+  height: 110px;
+  margin: 30%;
+  background: white;
+  border-radius: 50%;
+  transform: translateX(70px) translateY(-60px) skewX(15deg) skewY(2deg);
+  position: absolute;
+}
+
+#eightBall #eight::before {
+  content: "8";
+  display: block;
+  position: absolute;
+  text-align: center;
+  height: 80px;
+  width: 100px;
+  left: 50px;
+  margin-left: -40px;
+  top: 44px;
+  margin-top: -40px;
+  color: black;
+  font-family: Arial;
+  font-size: 90px;
+  line-height: 104px;
+}
+
 #flexContainer {
   display: flex;
   flex-direction: column;
